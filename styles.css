@@ -1,0 +1,120 @@
+
+
+body{
+    margin: 0px 0px 0px 0px;
+    height: 700px;
+}
+.startInterface{
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    position: absolute;
+    display: block;
+}
+.startBut{
+    font-size: 25px;
+    border-radius: 20px;
+     height: 50px;
+     width: 200px;
+     color: greenyellow;
+   border-color:  greenyellow;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid;
+}
+.startBut:hover{
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: greenyellow;
+    color: white;
+    border: 5px solid greenyellow;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+}
+.gameAreaDiv{
+    height: 460px;
+    width: 460px;
+    position: relative;
+    left: 100px;
+    top: 70px;
+    border: 5px solid rgb(3, 163, 3);
+    border-radius: 40px;
+}
+.gameBlock1{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    background-color: rgb(3, 163, 3);
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(3, 163, 3);
+    border-radius: 20px;
+    padding: 0px 0px 0px 0px;
+}
+.gameBlock1:hover{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(3, 163, 3);
+    border-radius: 20px;
+}
+.gameBlock2{
+    position: absolute;
+    left: 180px;
+    top: 40px;
+    background-color: rgb(3, 163, 3);
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(3, 163, 3);
+    border-radius: 20px;
+    padding: 0px 0px 0px 0px;
+}
+.gameBlock2:hover{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(3, 163, 3);
+    background-color: white;
+    border-radius: 20px;
+}
+.gameBlock3{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    background-color: rgb(3, 163, 3);
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(3, 163, 3);
+    border-radius: 20px;
+    padding: 0px 0px 0px 0px;
+}
+.gameBlock3:hover{
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(3, 163, 3);
+    background-color: white;
+    border-radius: 20px;
+
+}
